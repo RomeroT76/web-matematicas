@@ -9,9 +9,6 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <img src="../img/Mountain.png" alt="Logo de la marca">
-        </div>
         <nav>
            <ul class="nav-links">
                 <li><a href="./Inicio.html">Inicio</a></li>
@@ -24,28 +21,29 @@
     <div class="container">
         <div class="calculator">
             <div class="display">
-                <div class="upperSection">upperSection</div>
-                <div class="lowerSection">lowerSection</div>
+                <div class="upperSection"></div>
+                <div class="lowerSection">0</div>
             </div>
-            <button class="col-2 cBtn">C</button>
-            <button>&larr;</button>
-            <button class="operatorBtn">÷</button>
-            <button class="numberBtn">7</button>
-            <button class="numberBtn">8</button>
-            <button class="numberBtn">9</button>
-            <button class="operatorBtn">x</button>
-            <button class="numberBtn">4</button>
-            <button class="numberBtn">5</button>
-            <button class="numberBtn">6</button>
-            <button class="operatorBtn">-</button>
-            <button class="numberBtn">1</button>
-            <button class="numberBtn">2</button>
-            <button class="numberBtn">3</button>
-            <button class="operatorBtn">+</button>
-            <button class="col-2">0</button>
-            <button class="numberBtn">.</button>
-            <button class="operatorBtn">=</button>
+            <button class="col-2 cBtn button" id="c">C</button>
+            <button class="numberBtn button" id="del">&larr;</button>
+            <button class="operatorBtn button">÷</button>
+            <button class="numberBtn button">7</button>
+            <button class="numberBtn button">8</button>
+            <button class="numberBtn button">9</button>
+            <button class="operatorBtn button">*</button>
+            <button class="numberBtn button">4</button>
+            <button class="numberBtn button">5</button>
+            <button class="numberBtn button">6</button>
+            <button class="operatorBtn button">-</button>
+            <button class="numberBtn button">1</button>
+            <button class="numberBtn button">2</button>
+            <button class="numberBtn button">3</button>
+            <button class="operatorBtn button">+</button>
+            <button class="col-2 button numberBtn">0</button>
+            <button class="numberBtn button">.</button>
+            <button class="operatorBtn button" id="eq">=</button>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
