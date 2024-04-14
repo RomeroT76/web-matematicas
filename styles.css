@@ -150,9 +150,33 @@ body {
     margin-top: 20px;
 }
 
-.pf {
+footer {
     background-color: rgb(42, 127, 165);
+    color: #ffbc0e;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main {
     display: flex;
     justify-content: center;
-    color: #ffbc0e;
+    align-items: center;
 }
+
+.calculator-section {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.description-section {
+    align-items: center;
+    max-width: 400px;
+}
+
+#calculator-image {
+    transition: opacity 3s ease-in-out;;
+}
+
