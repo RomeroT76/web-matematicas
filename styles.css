@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(73, 199, 208);
 }
 
 .header{
@@ -150,9 +150,48 @@ body {
     margin-top: 20px;
 }
 
-.pf {
+footer {
     background-color: rgb(42, 127, 165);
+    color: #ffbc0e;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main {
     display: flex;
     justify-content: center;
-    color: #ffbc0e;
+    align-items: center;
+}
+
+.calculator-section {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.description-section {
+    align-items: center;
+    max-width: 400px;
+}
+
+#calculator-image {
+    transition: opacity 4s ease-in-out;;
+}
+
+.content-container {
+    display: flex;
+}
+
+.content-left,
+.content-right {
+    flex: 1; /* Ambos divs ocupan el mismo espacio horizontal */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; /* Color de fondo para ambos divs */
+}
+
+.content-right {
+    background-color: #e0e0e0; /* Color de fondo diferente para el div derecho */
 }
