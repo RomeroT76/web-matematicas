@@ -18,7 +18,7 @@
             setTimeout(function() {
                 image.src = nextImage.src; 
                 image.style.opacity = 1; 
-            }, 2000); 
+            }, 3000); 
         };
     }
 
