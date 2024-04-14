@@ -1,6 +1,7 @@
 const upperSection = document.querySelector(".upperSection");
 const lowerSection = document.querySelector(".lowerSection");
 const buttons = document.querySelectorAll(".button");
+const rexp = new RegExp("[*]{2}");
 
 buttons.forEach((bt) => {
   bt.addEventListener("click", () => {
@@ -16,10 +17,20 @@ buttons.forEach((bt) => {
     }
 
     if (bt.id === "eq") {
+      // if (rexp.test(upperSection.textContent)) {
+      //   lowerSection.textContent = "Syntax Error";
+      //   return;
+      // }
       try {
-        lowerSection.textContent = eval(upperSection.textContent)
+        if (rexp.test(upperSection.textContent)) {
+          upperSection.textContent = "";
+          throw SyntaxError;
+        }
+        lowerSection.textContent = eval(upperSection.textContent);
+        upperSection.textContent = "";
       } catch {
-        lowerSection.textContent = "Syntax Error"
+        upperSection.textContent = "";
+        lowerSection.textContent = "Syntax Error";
       }
       return;
     } else {
