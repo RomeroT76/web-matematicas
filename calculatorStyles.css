@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    /* background-color: rgb(33, 53, 71); */
-    /* background: linear-gradient(to bottom,rgb(33, 53, 71), black) */
     background: radial-gradient(circle, rgb(33, 53, 71), black);
 }
 
@@ -82,5 +80,3 @@ button:active {
 .numberBtn {
     background-color: rgb(158, 158, 157);
 }
-
-
