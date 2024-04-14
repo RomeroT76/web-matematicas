@@ -70,12 +70,13 @@ button:active {
 .lowerSection {
     font-size: 1.5em;
     color: white;
+    overflow: auto;
 }
 
 .upperSection {
     font-size: 2em;
     color: white;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .numberBtn {

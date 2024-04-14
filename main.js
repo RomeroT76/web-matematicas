@@ -8,6 +8,7 @@ buttons.forEach((bt) => {
     let pb = bt.textContent;
     if (bt.id === "c") {
       upperSection.textContent = "";
+      lowerSection.textContent = "0";
       return;
     }
 
