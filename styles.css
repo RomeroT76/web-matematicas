@@ -173,27 +173,24 @@ footer {
 }
 
 .description-section {
-    align-items: center;
     max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 5px 0px 2.5px #00000033;
+    text-align: center;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+    transition: background-color 0.3s ease;
+}
+
+.description-section:hover,
+.description-section:focus {
+    background-color: rgb(33, 53, 71);
 }
 
 #calculator-image {
-    transition: opacity 4s ease-in-out;;
-}
-
-.content-container {
-    display: flex;
-}
-
-.content-left,
-.content-right {
-    flex: 1; /* Ambos divs ocupan el mismo espacio horizontal */
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0; /* Color de fondo para ambos divs */
-}
-
-.content-right {
-    background-color: #e0e0e0; /* Color de fondo diferente para el div derecho */
+    transition: opacity 3s ease-in-out;;
 }
 
