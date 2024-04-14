@@ -1,6 +1,8 @@
 body {
-    margin: 0;
-    background: radial-gradient(circle, rgb(33, 53, 71), black);
+    margin: 0px;
+    background-color: rgb(73, 199, 208);
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -14,29 +16,29 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-color: rgb(54, 27, 78);
+    background-color: #4fca91d5;
     padding: 15px;
     border-radius: 32px;
     box-shadow: 15px 10px 0px 5px #00000033;
+    margin-bottom: 50px;
 }
 
-button {
+.button {
     cursor: pointer;
     margin: 5px;
     padding: 0;
     border-radius: 32px;
     font-size: 1.5em;
     border: none;
-    background-color: rgb(87, 32, 112);
-    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #b700ff1f;
+    background-color: #4fca91d5;
 }
 
-button:hover {
+.button:hover {
     background-color: rgb(33, 53, 71);
 }
 
-button:active {
-    background-color: #b700ff1f;
+.button:active {
+    background-color: #4fca91d5;
 }
 
 .display {
@@ -70,12 +72,13 @@ button:active {
 .lowerSection {
     font-size: 1.5em;
     color: white;
+    overflow: auto;
 }
 
 .upperSection {
     font-size: 2em;
     color: white;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .numberBtn {

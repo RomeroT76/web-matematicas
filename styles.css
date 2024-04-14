@@ -19,6 +19,7 @@ body{
     align-items: center;
     height: 85px;
     padding: 5px 10%;
+    margin-bottom: 20px;
 }
 
 .header .logo{
@@ -195,3 +196,4 @@ footer {
 .content-right {
     background-color: #e0e0e0; /* Color de fondo diferente para el div derecho */
 }
+
