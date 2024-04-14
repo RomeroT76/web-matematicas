@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(73, 199, 208);
 }
 
 .header{
@@ -19,6 +19,7 @@ body{
     align-items: center;
     height: 85px;
     padding: 5px 10%;
+    margin-bottom: 20px;
 }
 
 .header .logo{
@@ -172,11 +173,24 @@ footer {
 }
 
 .description-section {
-    align-items: center;
     max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 5px 0px 2.5px #00000033;
+    text-align: center;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: auto;
+    transition: background-color 0.3s ease;
+}
+
+.description-section:hover,
+.description-section:focus {
+    background-color: rgb(33, 53, 71);
 }
 
 #calculator-image {
-    transition: opacity 4s ease-in-out;;
+    transition: opacity 3s ease-in-out;;
 }
 
