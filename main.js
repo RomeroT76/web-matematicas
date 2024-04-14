@@ -17,10 +17,6 @@ buttons.forEach((bt) => {
     }
 
     if (bt.id === "eq") {
-      // if (rexp.test(upperSection.textContent)) {
-      //   lowerSection.textContent = "Syntax Error";
-      //   return;
-      // }
       try {
         if (rexp.test(upperSection.textContent)) {
           upperSection.textContent = "";
