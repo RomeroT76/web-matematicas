@@ -93,3 +93,10 @@ body{
 span {
     color: #ffbc0e;
 }
+
+footer {
+    color: white;
+    background-color: rgb(42, 127, 165);
+    display: flex;
+    justify-content: center;
+}

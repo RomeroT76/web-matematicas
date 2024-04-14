@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background-color: rgb(33, 53, 71);
+    /* background-color: rgb(33, 53, 71); */
+    /* background: linear-gradient(to bottom,rgb(33, 53, 71), black) */
+    background: radial-gradient(circle, rgb(33, 53, 71), black);
 }
 
 .container {
@@ -14,7 +16,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-color: rgb(66, 184, 131);
+    background-color: rgb(54, 27, 78);
     padding: 15px;
     border-radius: 32px;
     box-shadow: 15px 10px 0px 5px #00000033;
@@ -27,16 +29,16 @@ button {
     border-radius: 32px;
     font-size: 1.5em;
     border: none;
-    background-color: rgb(66, 184, 131);
-    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+    background-color: rgb(87, 32, 112);
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #b700ff1f;
 }
 
 button:hover {
-    background-color: gray;
+    background-color: rgb(33, 53, 71);
 }
 
 button:active {
-    background-color: rgb(54, 150, 107);
+    background-color: #b700ff1f;
 }
 
 .display {
@@ -63,7 +65,7 @@ button:active {
 }
 
 .operatorBtn {
-    background-color: rgb(123, 131, 248);
+    background-color: rgb(233, 193, 62);
 }
 
 .lowerSection {
@@ -74,10 +76,11 @@ button:active {
 .upperSection {
     font-size: 2em;
     color: white;
+    overflow: hidden;
 }
 
 .numberBtn {
-    background-color: beige;
+    background-color: rgb(158, 158, 157);
 }
 
 
