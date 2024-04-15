@@ -188,6 +188,7 @@ footer {
 .description-section:hover,
 .description-section:focus {
     background-color: rgb(33, 53, 71);
+    color: #ffbc0e;
 }
 
 #calculator-image {
